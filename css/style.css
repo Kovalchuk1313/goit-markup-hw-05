@@ -144,11 +144,17 @@ button {
 .navbar-link::after {
   content: '';
   position: absolute;
+  width: 100%;
   left: 0;
   bottom: -1px;
   height: 4px;
-  background-color: #404bbf;
   border-radius: 2px;
+}
+.navbar-link.active {
+  color: #404bbf;
+}
+.navbar-link.active::after {
+  background-color: #404bbf;
 }
 .contact {
   font-style: normal;
@@ -484,11 +490,11 @@ button {
     0px 2px 1px rgba(46, 47, 66, 0.08);
   transform: translateY(0%);
 }
-.menu-wrapper {
+.thumb {
   position: relative;
   overflow: hidden;
 }
-.menu-uppertitle {
+.thumb-text {
   position: absolute;
   top: 0;
   font-size: 16px;
