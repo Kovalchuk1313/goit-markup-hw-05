@@ -477,7 +477,7 @@ button {
   row-gap: 48px;
   column-gap: 24px;
 }
-.menu-inner-list {
+.menu-inner-item {
   width: calc((100% - 48px) / 3);
 }
 .menu-inner-link {
